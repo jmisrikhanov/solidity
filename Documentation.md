@@ -11,12 +11,13 @@ To successfully implement the codes Solidity instructions should be executed fir
 5. Copy and paste codes from Insurance.sol to the Remix IDE.
 6. Run and copy and paste the farmer's wallet address and set the payment amount to the farmer, in our case, we used 1 ether converted to Wei.
 7. The same amount should be pasted to the value section in Remix IDE.
+8. Deploy the contract
 
 ### Optional functions:
 
-1. precipitationCheck function. We added this function in order to be used to manually input precipitation level if there is a problem with oracle. !!! Should not be used if oracle functions properly.
-2. setFarmer function. We added this function in order to be used if there is a change in the farmer's wallet account.
-3. trasferOwnership. We added this function in order to be used if there is a change in the government's account.
+1. precipitationCheck function. We added this function to be used to manually input precipitation level if there is a problem with oracle. !!! Should not be used if oracle functions properly.
+2. setFarmer function. We added this function to be used if there is a change in the farmer's wallet account.
+3. trasferOwnership. We added this function to be used if there is a change in the government's account.
 
 # Instruction on ethers.js
 
